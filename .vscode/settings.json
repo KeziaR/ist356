@@ -1,7 +1,11 @@
 {
     "dbt.queryLimit": 500,
     "python.testing.pytestArgs": [
+<<<<<<< HEAD
         "."
+=======
+        "1-python/solutions/dateutils.py"
+>>>>>>> a168d99caaf711886eaa38a8756fae1a751a01aa
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true
