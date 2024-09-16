@@ -1,5 +1,7 @@
-<<<<<<< HEAD
+
 pytest
-=======
+
 pytest
->>>>>>> a168d99caaf711886eaa38a8756fae1a751a01aa
+
+pandas
+
