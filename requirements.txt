@@ -1,5 +1,12 @@
 
 pytest
-
+ipywidgets
 pytest
 pandas
+numpy
+matplotlib
+IPython
+scipy
+scikit-learn
+seaborn
+jupyter
