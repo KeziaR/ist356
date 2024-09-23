@@ -1,13 +1,6 @@
 
 pytest
 ipywidgets
-pytest
+pillow
+pillow
 pandas
-numpy
-matplotlib
-IPython
-scipy
-scikit-learn
-seaborn
-jupyter
-streamlit
