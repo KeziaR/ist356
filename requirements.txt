@@ -2,5 +2,16 @@
 pytest
 ipywidgets
 pillow
+<<<<<<< HEAD
 pillow
 pandas
+=======
+pandas
+requests
+fastapi[all]
+pytest-playwright
+playwright
+seaborn
+geopandas[all]
+folium
+>>>>>>> f3522b258f759dc8564404c8e51045ad261fcee6
