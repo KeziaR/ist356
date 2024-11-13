@@ -22,7 +22,10 @@ def course_scraper(playwright: Playwright, course) -> dict:
 
         course_selector = page1.query_selector("table")
         course_text = course_selector.inner_text()
-
+        #lines = course_text.split("\n")
+        # for i,line in enumerate(lines):
+        #     print(i,line)
+        # exit()
     # ---------------------
     context.close()
     browser.close()
@@ -35,7 +38,7 @@ def course_scraper(playwright: Playwright, course) -> dict:
 
     return {
         "course": course,
-        "title": lines[6].split("-")[-1].strip(),
+        "title": lines[6].split("-")[-1].strip(), 
         "credits": int(lines[8].split(" ")[0].strip()),
         "description": lines[9].strip()
     }
