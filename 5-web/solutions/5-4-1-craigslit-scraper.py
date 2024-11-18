@@ -7,7 +7,7 @@ def scrape_craigslist(playwright: Playwright, search:str) -> list[dict]:
     context = browser.new_context()
     page = context.new_page()
     page.goto(f"https://syracuse.craigslist.org/search/sss?query={search}#search=1~gallery~0~0")
-    sleep(2)
+    sleep(30)
     page.locator(".cl-search-view-mode > span").click()
     page.get_by_role("button", name=" list").click()
 
