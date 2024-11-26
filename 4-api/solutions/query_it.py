@@ -2,7 +2,7 @@ import pandas as pd
 import requests 
 import streamlit as st
 
-APIKEY = "YOURKEYHERE"
+APIKEY = "aa6e4968ebd13a84b6d805eb"
 
 st.title("Query It!")
 st.caption("Ask a question of your data. Benefits of large context windows.")

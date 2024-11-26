@@ -5,7 +5,7 @@ import streamlit as st
 st.title("Streamlit Weather")
 location = st.text_input("Enter a location")
 if location:
-    apikey = "ea044c96950db6cc0fab7ae1"
+    apikey = "aa6e4968ebd13a84b6d805eb"
     headers = { "X-Api-Key": apikey }
     geourl = "https://cent.ischool-iot.net/api/google/geocode"
     params = { "location": location }
